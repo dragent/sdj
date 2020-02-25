@@ -16,3 +16,4 @@ Evolution :
     - menu
     - Customer management
     - creation of the file
+    - session login
