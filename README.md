@@ -10,7 +10,7 @@ Rigth now this site :
     - Connect at the database
     - Follow the MVC structure
     - login user
-    - dataset for an use
+    - dataset and creation of the database
     
 Evolution : 
     
