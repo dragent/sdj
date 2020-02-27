@@ -1,0 +1,25 @@
+htlk, body{
+    height:100vw;
+    width: 100vh;
+}
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+  height: 100vh;
+  background-color: #87E990; /* Grey background color */
+}
+
+.vertical-menu a {
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: #F0E68C;
+}
