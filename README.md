@@ -11,10 +11,10 @@ Rigth now this site :
     - Follow the MVC structure
     - login user
     - dataset and creation of the database
+    - session login
     
 Evolution : 
     
     - menu
     - Customer management
     - creation of the file
-    - session login
