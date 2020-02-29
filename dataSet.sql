@@ -31,7 +31,7 @@ CREATE TABLE Customer
 /*******************************
 ***       Jeu de données     ***
 *******************************/
-INSERT INTO Admin VALUES (0,'test', 'test');
+INSERT INTO Admin(nameAdmin,passAdmin) VALUES ('test', 'test');
 INSERT INTO Customer(nameCust,nicknameCust,phoneCust,bookingCust,takeawayCust,banCust) VALUES ('tarzan', 'jane',0618204680,true,false,false);
 INSERT INTO Customer(nameCust,nicknameCust,phoneCust,bookingCust,takeawayCust,banCust) VALUES ('tarsan', 'gene',0618204681,true,false,true);
 INSERT INTO Customer(nameCust,nicknameCust,phoneCust,bookingCust,takeawayCust,banCust) VALUES ('mickey ', 'mouse',0618204682,false,true,false);

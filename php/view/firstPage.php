@@ -8,8 +8,7 @@
         <meta charset="UTF-8">
     </head>
     <body>
-          <!-- Le metatag charset permet d'encoder correctement les caractères en unicode (c'est donc grâce à cette balises qu'on peut utiliser des accents et d'autres caractères spéciaux -->
-          <h1>SJD</h1>
+        <h1>SJD</h1>
         <h2>Connexion</h2>
         <form id="formConnect" action="" method="post">
           <div id="divUser">
