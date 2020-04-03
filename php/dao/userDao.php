@@ -1,19 +1,20 @@
 <?php
-    include_once 'entitieDao.php';
+    include_once 'entitieInterface.php';
 
     /**********************************************
     ***      Création d'une classe  interragissant avec la table Admin    ***
     **********************************************/
     class adminDao implements entitieDao
     {
-        function __construct()
+        private $bdd;
+        function __construct( $bdd)
         {
-
+            $this->bdd=$bdd;
         }
 
-        function getUserByPassAndLogin( $user, $password, $bdd)
+        function getUserByPassAndLogin( $user, $password)
         {
-            $req= $bdd->prepare('Select * FROM admin Where nameAdmin LIKE  ?  AND passAdmin LIKE  ?');
+            $req= $this->bdd->prepare('Select * FROM admin Where nameAdmin LIKE  ?  AND passAdmin LIKE  ?');
             $req->execute(array("$user","$password"));
             $result=  $req->fetchAll(PDO::FETCH_NUM  );
             return $result;

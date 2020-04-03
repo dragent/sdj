@@ -1,0 +1,13 @@
+#titre
+{
+    position: relative;
+    width: 100%;
+    left : 20%;;
+}
+
+#container
+{
+    width: 100%;
+    position: relative;
+    left:  200px;
+}
