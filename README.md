@@ -12,9 +12,12 @@ Rigth now this site :
     - login user
     - dataset and creation of the database
     - session login
+    - menu
+    - Reading of customer Data
     
 Evolution : 
     
-    - menu
-    - Customer management
+    - Customer add
+    - research on customer
+    - better view
     - creation of the file
