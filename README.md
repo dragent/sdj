@@ -14,10 +14,11 @@ Rigth now this site :
     - session login
     - menu
     - Reading of customer Data
+    - Customer add
+    - Update and Delete of Customer
     
 Evolution : 
     
-    - Customer add
     - research on customer
-    - better view
+    - bootstrap
     - creation of the file
