@@ -16,9 +16,9 @@ Rigth now this site :
     - Reading of customer Data
     - Customer add
     - Update and Delete of Customer
+    - bootstrap
+    - .htacces
     
 Evolution : 
     
     - research on customer
-    - bootstrap
-    - creation of the file
