@@ -1,0 +1,30 @@
+table
+{
+    font-family: serif;
+    position: relative;
+    left: 1.5%;
+    border-collapse: collapse;
+    text-align:center;
+    width: 90%;
+}
+tr td
+{
+    border:1pt solid black;
+    font-size:15px;
+}
+
+tr th
+{
+    border:2pt solid black;
+    font-size:15px;
+}
+
+.banCust
+{
+    background-color: #87E990;
+}
+
+tbody
+{
+    overflow: scroll;
+}
