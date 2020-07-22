@@ -22,3 +22,5 @@ Rigth now this site :
 Evolution : 
     
     - research on customer
+    - upgrade of the table
+    - upgrade of .htacess
