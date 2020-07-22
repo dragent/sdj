@@ -3,7 +3,7 @@
 
     <form id="home" action="affichage" method="post">
         <input type="hidden" name="on" value="home"/>
-        <a id="homeLink" onclick=switchActiveLink("home") value="test" >Home</a>
+        <a id="homeLink" onclick=switchActiveLink("home") value="test" >Accueil</a>
     </form>
     <form id="cust" action="affichage" method="post">
         <input type="hidden" name="on" value="cust"/>
@@ -18,6 +18,6 @@
         <a id="addCustLink" onclick=switchActiveLink("addCust") >Ajout Client</a>
     </form>
     <form action="deconnection" method="post">
-        <button name="deconnectSession" id="deconnectSession" class="navButton btn  btn-dark">Deconnection</button>
+        <button name="deconnectSession" id="deconnectSession" class="navButton btn  btn-dark">Deconnexion</button>
     </form>
 </nav>

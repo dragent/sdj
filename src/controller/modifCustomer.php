@@ -12,10 +12,11 @@ require_once dirname(__DIR__).DIRECTORY_SEPARATOR."Table".DIRECTORY_SEPARATOR."c
 $customerDataObject= new customerTable($bdd);
 $customerData= $customerDataObject->searchById($_POST["idCust"]);
 $customerObject= customer::__constructBySelect($customerData[0]);
+$_POST["idCust"]=$customerData[0];
 if((isset($_POST['Action']))&&($_POST['Action']=="Delete"))
 {
     $_SESSION['idCust']=$customerObject->getId();
-    header('Location: deleteCust.php');
+    header('Location: suppression');
 }
 if(isset($_POST["banCust"]))
 {

@@ -1,4 +1,4 @@
-<div id='container' class="page col-10">
+<div id='container' class="page col-9">
 <h1 id="title" class="page">Répertoire Client</h1>
 <h2 id="titlePage"><?php
 if(!isset($_POST["on"]))

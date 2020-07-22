@@ -1,4 +1,4 @@
-<table>
+<table table-responsive>
     <thead>
         <tr>
             <th>Nom</th>
@@ -13,14 +13,14 @@
         <?php
         for($i=0;$i<count($customerObject);$i++)
         {
-            ?>
-            <tr
+             ?>
+             <tr
                 <?php if($customerObject[$i]->isBan()==1)
                 {
-                    ?> class="banCust"  <?php
+                    ?> class="banCust"<?php
                 }
                 ?>>
-                <td><?=  $customerObject[$i]->getName();?></td>
+                <td><?=$customerObject[$i]->getName();?></td>
                 <td><?=  $customerObject[$i]->getNickname();?></td>
                 <td><?=  $customerObject[$i]->getPhone();?></td>
                 <td><?=  ($customerObject[$i]->isBooking()==1) ?  "Oui":  "Non" ;?></td>
@@ -30,8 +30,9 @@
                 </td>
             </tr>
             <?php
-        }
-        ?>
-    </tbody>
+         }
+         ?>
+ 
+   </tbody>
 </table>
 	

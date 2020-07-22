@@ -1,7 +1,10 @@
-
 .vertical-menu {
-    background-color: #87E990;
+    background: -webkit-linear-gradient(top, #ffe436, #87E990);
     text-align: center;
+    font-size: 1.4rem;
+    margin-left:10px;
+    height:100%;
+    padding-top:2vh;
 }
 
 .vertical-menu a {
@@ -9,33 +12,23 @@
     display: block;
     position: relative;
     top:5%;
-    padding: 12px;
+    padding:5%;
     text-decoration: none;
     opacity: 0.8;
 }
 
 .vertical-menu a.active {
     background-color: #4CAF50;
-    color: #F0E68C;
+    color: #ffe436;
 }
 
 .navButton{
-    width: 80%;
-    font-size: 0.7rem;
-}
-
-.vertical-menu:hover
-{
-    cursor: hand;
+    font-size: 1.55rem;
 }
 
 .vertical-menu a:hover
 {
+    cursor: hand;
     opacity: 1;
 }
-
-.input-group.md-form.form-sm.form-1 input{
-    border: 1px solid #bdbdbd;
-    border-top-right-radius: 0.25rem;
-    border-bottom-right-radius: 0.25rem;
-}
+	

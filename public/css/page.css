@@ -8,3 +8,38 @@
     text-align: center
 }
 
+body
+{
+ width :93vw;
+ height : 99vh;
+}
+
+.btnSubmit
+{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    background: #0062cc;
+    color: #fff;
+}
+
+.btnDelete
+{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    background: #8B0000;
+    color: #fff;
+    position:relative;
+    left: 20vw;
+}
+
+input[type=radio]
+{
+  margin-right:2vw;
+  margin-left:1vw;
+}

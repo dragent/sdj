@@ -11,4 +11,4 @@
     $bdd= dbAuth::connectBdd();
     $customerDataObject= new customerTable($bdd);
     $customerDataObject->deleteById($_SESSION["idCust"]);
-    header('Location: principalController.php');
+    header('Location: affichage');

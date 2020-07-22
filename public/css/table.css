@@ -1,22 +1,26 @@
 table
 {
-    font-family: serif;
+    font-family: georgia;
     position: relative;
     left: 1.5%;
     border-collapse: collapse;
     text-align:center;
-    width: 90%;
+    font-size:1.2rem;
+    left:5vw;
+    top : 2vh;  
+    width: 75vw;
+
 }
+
 tr td
 {
     border:1pt solid black;
-    font-size:15px;
+
 }
 
 tr th
 {
     border:2pt solid black;
-    font-size:15px;
 }
 
 .banCust
@@ -24,7 +28,13 @@ tr th
     background-color: #87E990;
 }
 
-tbody
-{
-    overflow: scroll;
+tbody {
+    display:block;
+    max-height:65vh;
+    overflow-y:auto;
+}
+thead, tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;/
 }
