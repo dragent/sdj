@@ -18,9 +18,9 @@ Rigth now this site :
     - Update and Delete of Customer
     - bootstrap
     - .htacces
+    - upgrade of the table
+    - upgrade of .htacess
     
 Evolution : 
     
     - research on customer
-    - upgrade of the table
-    - upgrade of .htacess
